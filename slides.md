@@ -137,7 +137,7 @@
 ---
 
 # [fit] success is __expensive__
-# [fit] \(here's the catastrophe)
+# [fit] \(for centralized services)
 
 ^ But as 2013 went on, and you all started using node, the node package registry started getting some serious use, and it needed heftier servers. It stopped being a cheap ad. Various lazy shortcuts taken in implementing the registry caused pain once the registry saw real use. In October 2013, the registry was down more than it was up.
 

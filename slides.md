@@ -46,16 +46,16 @@
 # [fit] JSConfEU __2009__
 # [fit] __node.js__ announced
 
-^ At the same time Javascript was starting to be very interesting as a programming language, thanks to jquery and modern browsers adhering to a spec. Server-side Javascript was big, and this very conference was part of the server-side javascript action. It was here, in 2009, at JSConfEU, where Ryan Dahl announced node.js. Node turned out to be the javascript platform we wanted.
+^ At the same time Javascript was starting to be very interesting as a programming language, thanks to jquery and modern browsers adhering to a spec. Server-side Javascript was a hot topic, and this very conference was part of the server-side javascript action. It was here, in 2009, at JSConfEU, where Ryan Dahl announced node.js. Node turned out to be the javascript platform we wanted.
 
 ---
 
 # [fit] early node had
 # [fit] package managers __plural__
 
-^ he early node community swept up interesting people who enjoyed the bleeding edge and the possibilities of a brand-new ecosystem where nobody had done much invention yet. Several of the people involved in early node figured out early on that package management for node would be very useful, and started writing package managers. Yes, more than one-- there were several competitors.
+^ The early node community swept up interesting people who enjoyed the bleeding edge and the possibilities of a brand-new ecosystem where nobody had done much invention yet. Several of the people involved in early node figured out early on that package management for node would be very useful, and started writing package managers. Yes, more than one-- there were several competitors.
 
-^ One of these people was a Yahoo employee who was extra-into node. He quit his job so he could write something inspired by the Yahoo package manager, but open source and for node.js. This particular programmer was clever in a couple of useful ways. For one, he got deeply involved in the node project, and this let him work on the implementation of the CommonJS module spec in node. And he did things to beat other package managers, like give projects pull requests to support his package manager instead of the others.
+^ One of these people was a Yahoo employee who was extra-into node. He quit his job so he could write something inspired by the Yahoo package manager, but open source and for node.js. This particular programmer was clever in a couple of useful ways. For one, he got deeply involved in the node project, and this let him work on the implementation of the CommonJS module spec in node, and make his own installer work right. And he did things to beat other package managers, like give projects pull requests to support his package manager instead of the others.
 
 ---
 
@@ -74,7 +74,14 @@
 # [fit] Joyent did __not__ buy
 # [fit] node's package manager
 
-^ The programmer who wrote npm was also hired by Joyent to work on node but-- important plot point-- he retained ownership of the the npmjs.org domain name, the npm source code, and any inventions in it as his own intellectual property. He didn’t turn it all over to Joyent the way the node source had been turned over to Joyent. This decision matters later, so take note.
+^ The programmer who wrote npm was also hired by Joyent to work on node but-- important plot point-- he retained ownership of the the npmjs.org domain name, the npm source code, and any inventions in it as his own intellectual property. He didn’t turn it all over to Joyent the way the node source had been turned over to Joyent.
+
+---
+
+# [fit] open-__source__ doesn't mean
+# [fit] open __ownership__ or __control__
+
+^ This decision matters later, so take note. The fact that you can read the source for part of something doesn't mean you have any control over it.
 
 ---
 
@@ -95,9 +102,9 @@
 ---
 
 # [fit] the package __registry__
-# [fit] is centralized
+# [fit] is __centralized__
 
-^ The thing about npm is that it's not just a cli tool that grabs code and slams it onto your hard drive into node_modules. In fact, the cli is probably the least important part of the npm machinery, despite how frequently you interact with it. npm is most importantly a centralized package *registry* and *repository*. Right from the beginning, the registry was there, running inside a CouchDB database, on the same domain it's on today. A "registry" is a list of a whole lot of Javascript packages, their names, their authors, their many versions. This registry made node's packages *easy to find* and it made installing them *fast and reliable*.
+^ The thing about npm is that it's not just a cli tool that grabs code and slams it onto your hard drive into node_modules. In fact, the cli is probably the least important part of the npm machinery, despite how frequently you interact with it. npm is most importantly a centralized package *registry* and *repository*. Right from the beginning, the registry was there, running inside a CouchDB database, on the same domain it's on today. A "registry" is a list of a whole lot of Javascript packages, their names, their authors, their many versions. This registry made node's packages *easy to find*. The repository part stores all those packages in a centralized spot, which made installing them *fast and reliable*.
 
 ^ There's a lot to unpack here, but I think it's worth a moment of our time.
 
@@ -113,13 +120,15 @@
 
 # [fit] centralization has been the __trend__
 
-^ Centralization has been a trend for the Internet. Blogs, for example, were once something people hosted on their own. It's moved to centralized hosting platforms that stick around for a while, like MySpace, Livejournal, and Posterous. Okay, like Tumblr and Medium. Social media centralized itself. Open source has centralized on Github.
+^ Centralization has been a trend for the Internet. Blogs, for example, were once something people hosted on their own. It's moved to centralized hosting platforms that stick around for a while, like MySpace, Posterous, and LiveJournal. Okay, like Tumblr and Medium. Social media centralized itself on Twitter and Facebook. Open source has centralized on Github.
+
+^ So npm is a centralized registry for all the node packages there are, and this is great, except that in 2013, as node started taking off, it started not to be so great. Why?
 
 ---
 
 # [fit] centralization of __costs__
 
-^ So npm is a centralized registry for all the node packages there are, and this is great, except that in 2013, as node started taking off, it started not to be so great. The downside of centralization is that _costs_ are centralized too. The downside of npm's registry is that all that use centered on a single database with an app embedded in it.
+^ The downside of centralization is that _costs_ are centralized too. The downside of npm's registry is that all that use centered on a single database with an app embedded in it.
 
 ---
 
@@ -240,7 +249,7 @@
 
 ^ I think most of the people who contributed to Javascript’s commons did so without expecting or wanting money in return. They might wish they had tropical islands, but they never expected them. Money wasn’t on their minds when they wrote those modules and invented the node ecosystem, back in the early days of node, when the users of the node package manager mostly knew each other.
 
-^ They were doing something else. They were exchanging gifts of open source with their peers.
+^ They were exchanging gifts of open source with their peers, and the wider ecosytem.
 
 ---
 
@@ -320,7 +329,7 @@
 
 ^ Policies for managing that list are controlled by a single company, not by the Javascript community. What gets a package removed? How are disputes among people using package names resolved? This is a controversial topic! Remember left-pad?
 
-^ That was an incident where a package that was a dependency of a dependency of babel vanished from the registry suddenly, breaking every CI build that depended on installing babel. Why did left-pad suddenly vanish? Buy me a drink and I'll tell you! But the unpublication policy didn't exist before this incident, because it didn't occur to npm to think about this use case. They won't act to change policies until pushed to change them.
+^ That was an incident where a package that was a dependency of a dependency of babel vanished from the registry suddenly, breaking every CI build that depended on installing babel. Why did left-pad suddenly vanish? Buy me a drink and I'll tell you! But the unpublication policy didn't exist before this incident, because it didn't occur to npm to think about this use case. They have not acted pro-actively to deal with problems until pushed to change.
 
 ---
 
@@ -408,7 +417,7 @@
 
 ^ When I initially knew I wanted to start talking about this problem in public, instead of in corners with friends, I thought I’d be fighting an uphill battle. The VC-funded package management company was beloved, and my work was one of the reasons why. I had participated in this whole rise to prominence— I made it possible. I stood on stage in front of you all and parroted that marketing message. What I meant by it was, "I, C J Silverio, feel affection for you all," and that was true.
 
-^ Now I don't think anybody can stand up in front of you and say "npm loves you" without being yelled at. npm has burned all of its goodwill over the last few months. It didn't have to happen-- it was a choice made by the people who run the company. They made that choice, though, and they doubled-down on it, and here we are.
+^ Now I don't think anybody can stand up in front of you and say "npm loves you" believably. npm has burned all of its goodwill over the last few months. It didn't have to happen-- it was a choice made by the people who run the company. They made that choice, though, and they doubled-down on it, and here we are.
 
 ---
 
@@ -434,9 +443,9 @@
 
 ---
 
-# [fit] VCs want to __go big__ or go home
+# [fit] VCs want to go big or __go home__
 
-^ There is absolutely nothing wrong with taking VC money inherently, in my opinion. Many ventures have goals well-aligned with the goals of VC money, and not all VC money is shaped alike. Some funds play long games. Funds like Futureshape are explicitly interested in bettering the world. But mostly, VC money is interested in returning the investment. The goal is to be sold to new owners for enough money to return the investment ten times over. Grow fast. Go big or go home.
+^ There is absolutely nothing wrong with taking VC money inherently, in my opinion. Many ventures have goals well-aligned with the goals of VC money, and not all VC money is shaped alike. Some funds play long games. Funds like Futureshape are explicitly interested in bettering the world. But mostly, VC money is interested in returning the investment. The goal is to be sold to new owners for enough money to return the investment ten times over. Grow fast. Go big or go home. VCs don't mind if a pile of their companies fail, so long as one succeeds.
 
 
 ---
@@ -456,7 +465,8 @@
 
 ---
 
-# [fit] they hired an, um, __interesting__ new CEO
+# [fit] they hired a CEO who made
+# [fit] some, um, __interesting__ moves
 
 ^ The ex-Yahoo employee who thought that sharing the Yahoo package manager with the world was a pretty neat idea was right about that, but he didn’t have many ideas beyond that, and it turns out running companies is a lot of work. So in 2017 he hired a new CEO to do that work for him, and well, here we go. The first thing this new CEO wanted to do was change npm’s culture— you know, the thing it had exported as its marketing message. The sustainable, compassionate culture was the first thing to go when this new guy arrived. Everybody, including me, learned it was just a marketing message, not deeply held values.
 
@@ -470,7 +480,7 @@
 
 ^ The public registry — the place where all your packages are indexed and stored— that’s the part you care about. That’s the part that is an enormous drain on npm’s budget _and_ simultaneously its value to investors. It controls all Javascript development, because all Javascript development proxies through it willingly. That data — the data gathered from your usage of it— is the valuable part. Every package-lock file npm has ever seen is sitting in an s3 bucket somewhere, chock-full of interesting data nuggets about what you've been up to. It’s also a perverse incentive influencing API design. The company has no incentive to reduce the number of times a client has to phone home when installing, because those calls homeward generate valuable data.
 
-^ The registry is a drain on npm. The work of keeping up with continuous near-exponential growth is itself continuous. During my time there this work occupied most of a very tiny engineering team. The team was tiny because that was all npm could afford--its inventor did a pretty bad job of telling its story to new investors and raising more money. Or the story he had to tell was just bad and potential investors knew that. I’m not sure which it was. But either way, npm had enough money to keep the free Javascript flowing to you, but not to make decent products to sell. Eventually the VC were going to lose patience. And here we are.
+^ The registry is a drain on npm. The work of keeping up with continuous near-exponential growth is itself continuous. During my time there this work occupied most of a very tiny engineering team. npm has managed to keep the free Javascript flowing to you, but hasn't managed to make a profit with its products. Eventually the VC were going to lose patience. And here we are.
 
 ---
 
@@ -529,11 +539,11 @@
 
 ^ This probably sounds impossible to you all. You're thinking that npm is entrenched. A few months ago I might have agreed, but then the company set on fire every bit of goodwill it had ever had for no reason anybody can see, all the trust people like me had ever earned it as benevolent stewards. Just poof. Up in flames. It was so total and comprehensive that it looks intentional. The solid ground shifted under our feet, and now we're aware that this thing we all depend on isn't what we thought it was.
 
-^ Also, I’m not much for hand-wringing. The do-nothing answer doesn’t sit well with me as a human.
-
 ---
 
 # [fit] I believe in __giving__ source code away
+
+^ Also, I’m not much for hand-wringing. The do-nothing answer doesn’t sit well with me as a human.
 
 ^ The other confession I’ll make is that I believe in open source despite everything. I think it's good for us as humans to give things to each other, and I think I'm at peace with the idea that some corporations will make money from it.
 
@@ -572,13 +582,9 @@
 
 ---
 
-[ show a short video of a demo ]
+# [fit] no, __don't use__ entropic yet
 
----
-
-# [fit] no, __don't rely__ on entropic yet
-
-^ The project is only a month old. It's not ready for anybody but people on the bleeding edge to use yet, but it's self-hosting already.
+^ The project is only a month old. It's not ready for anybody but people developing it to use yet.
 
 ---
 
@@ -615,7 +621,7 @@
 
 # [fit] __take back__ the commons
 
-^ My hope is that by giving Entropic away, I’ll help us take our language commons back. We'll take it back so we’re not held hostage by the needs of venture capitalists. Take it back so it's possible for us all to make a decision different from the decision we all made at the end of 2013. Take it back. As a community of millions of developers, it's in our power to take it back. Entropic is our kick-start to this movement to take our language back.
+^ My hope is that by giving Entropic away, I’ll help us take our language commons back. We'll take it back so we’re not held hostage by the needs of venture capitalists. Take it back so it's possible for us all to make a decision different from the decision we all made at the end of 2013. Take it back. We are a community of millions of developers, and we have enormous power. Entropic is our kick-start to this movement to take our language back.
 
 ---
 

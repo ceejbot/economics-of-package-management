@@ -1,7 +1,7 @@
 # [fit] The __economics__ of
 # [fit] package management
 
-^ I’m going to tell you a story about who owns the JavaScript language commons, how we got here, and why we need to change it. It’s a story about money as much as it is about Javascript— money and ownership and control.
+^ I’m going to tell you a story about who owns the JavaScript language commons, how we got here, and why we need to change it. It’s a story about money and ownership and control as much as it is about Javascript.
 
 ---
 
@@ -55,7 +55,7 @@
 
 ^ The early node community swept up interesting people who enjoyed the bleeding edge and the possibilities of a brand-new ecosystem where nobody had done much invention yet. Several of the people involved in early node figured out early on that package management for node would be very useful, and started writing package managers. Yes, more than one-- there were several competitors.
 
-^ One of these people was a Yahoo employee who was extra-into node. He quit his job so he could write something inspired by the Yahoo package manager, but open source and for node.js. This particular programmer was clever in a couple of useful ways. For one, he got deeply involved in the node project, and this let him work on the implementation of the CommonJS module spec in node, and make his own installer work right. And he did things to beat other package managers, like give projects pull requests to support his package manager instead of the others.
+^ One of these people was a Yahoo employee who was extra-into node. He quit his job so he could write something inspired by the Yahoo package manager, but for node.js. This particular programmer was clever in a couple of useful ways. For one, he got deeply involved in the node project, and this let him work on the implementation of the CommonJS module spec in node, and make his installer work right. And he did things to beat other package managers, like give projects pull requests to support his package manager instead of the others.
 
 ---
 
@@ -67,7 +67,7 @@
 
 # [fit] Joyent __bought__ node
 
-^ Somewhere around this time, Joyent bought node from Ryan Dahl for a paltry amount of money. You’ll notice that we’re already in interesting economic territory. The man who invented node.js, the tool used by millions of people daily to develop Javascript, made a few tens of thousands of dollars from it. Whoever’s making money from node today, it’s not its inventor. He did at least make a living from it, because Joyent also hired him.
+^ Somewhere around this time, Joyent bought node from Ryan Dahl for a paltry amount of money. You’ll notice that we’re already in interesting economic territory. The man who invented node.js, the tool used by millions of people daily to develop Javascript, made a few tens of thousands of dollars from it. Whoever’s making money from node today, it’s not its inventor. He did at least make a living from it after selling it, because Joyent hired him.
 
 ---
 
@@ -81,7 +81,7 @@
 # [fit] open-__source__ doesn't mean
 # [fit] open __ownership__ or __control__
 
-^ This decision matters later, so take note. The fact that you can read the source for part of something doesn't mean you have any control over it.
+^ This decision matters later, so take note. The ability to *read* part of the source for something doesn't mean you can change the source. It also doesn't give you any control over that source code, what it does, and what it manages.
 
 ---
 
@@ -97,7 +97,7 @@
 # [fit] success is a __catastrophe__
 # [fit] you need to survive
 
-^ Success for the open-source version of npm was a catastrophe.
+^ Success for the earlier version of npm was a catastrophe. Here's why.
 
 ---
 
@@ -160,7 +160,7 @@
 
 # [fit] this is not a novel __problem__
 
-^ This is not an unusual problem for language ecosystems to face. RubyGems costs money to run, too. Perl solved its problem long ago with a network of CPAN mirrors.
+^ This is not an unusual problem for language ecosystems to face. RubyGems costs money to run, too. Perl solved its problem long ago with a network of CPAN mirrors. A lot of smaller language ecosystems stumble along by building on top of free Github repos.
 
 ---
 
@@ -223,10 +223,10 @@
 # [fit] let's talk about __money__
 
 ^ Let’s talk about money.
-^ Why isn’t Ryan Dahl living on a tropical island?
-^ Why isn't James Halliday retired on his tropical island?
-^ Why isn’t Dominic Tarr living on a yacht instead of a sailboat?
-^ Why does Doug Wilson have a day job?
+Why isn’t Ryan Dahl living on a tropical island?
+Why isn't James Halliday retired on his tropical island?
+Why isn’t Dominic Tarr living on a yacht instead of a sailboat?
+Why does Doug Wilson have a day job?
 
 ---
 
@@ -302,7 +302,7 @@
 # [fit] our common registry of shared code
 # [fit] is owned by a __private company__
 
-^ But all of _that_ is wholly owned by a VC-funded private company.
+^ But all of _that_ is wholly owned by a VC-funded private company. This is the thing we've given away.
 
 ---
 
@@ -427,10 +427,10 @@
 
 ---
 
-# [fit] It's 2017. Packages
+# [fit] It's 2018. Packages
 # [fit] flow like __water__.
 
-^ We pick up in, oh, I don’t know, 2017. You all have been drinking from the firehose of Javascript packages which have been, for you, free. You do not think about or care about where they come from, or who is paying for the servers. You just type `install` and the packages arrive.
+^ We pick up in, oh, I don’t know, 2017, 2018. You all have been drinking from the firehose of Javascript packages which have been, for you, free. You do not think about or care about where they come from, or who is paying for the servers. You just type `install` and the packages arrive.
 
 ---
 
@@ -468,7 +468,7 @@
 # [fit] they hired a CEO who made
 # [fit] some, um, __interesting__ moves
 
-^ The ex-Yahoo employee who thought that sharing the Yahoo package manager with the world was a pretty neat idea was right about that, but he didn’t have many ideas beyond that, and it turns out running companies is a lot of work. So in 2017 he hired a new CEO to do that work for him, and well, here we go. The first thing this new CEO wanted to do was change npm’s culture— you know, the thing it had exported as its marketing message. The sustainable, compassionate culture was the first thing to go when this new guy arrived. Everybody, including me, learned it was just a marketing message, not deeply held values.
+^ The ex-Yahoo employee who thought that sharing the Yahoo package manager with the world was a pretty neat idea was right about that, but he didn’t have many ideas beyond that, and it turns out running companies is a lot of work. So in 2018 he hired a new CEO to do that work for him, and well, here we go. The first thing this new CEO wanted to do was change npm’s culture— you know, the thing it had exported as its marketing message. The sustainable, compassionate culture was the first thing to go when this new guy arrived. Everybody, including me, learned it was just a marketing message, not deeply held values.
 
 ^ npm’s PR troubles as a result are probably known to you now. We’re a community that enjoys our drama. It's possible that if a saint were in charge, I wouldn't be standing here. But maybe I would be, because even a decent human being in that spot has a big problem to solve.
 
@@ -574,7 +574,7 @@
 # [fit] decentralized: many registries
 
 ^ Entropic comes with its own cli, which we’re calling `ds` , the entropy delta,.
-^ Entropic offers a new API for publication and for installation, one that drastically reduces the amount of network traffic needed. The unit of installation is a single file, not a tarball.
+^ Entropic offers a new API for publication and for installation, one that drastically reduces the amount of network traffic needed. The unit of installation is a single file, not a tarball. It's tink-ready.
 ^ Entropic is federated. You can depend on packages from any other Entropic instance, and your home instance will mirror all your dependencies for you so you remain self-sufficient.
 ^ Entropic will mirror all packages you install from the legacy package manager.
 ^ The requirements list is short, and we’ve dockerized it all.

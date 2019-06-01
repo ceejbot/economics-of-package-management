@@ -67,7 +67,7 @@
 
 # [fit] Joyent __bought__ node
 
-^ Somewhere around this time, Joyent bought node from Ryan Dahl for a paltry amount of money. You’ll notice that we’re already in interesting economic territory. The man who invented node.js, the tool used by millions of people daily to develop Javascript, made a couple tens of thousands of dollars from it. Whoever’s making money from node today, it’s not its inventor. He did at least make a living from it, because Joyent also hired him.
+^ Somewhere around this time, Joyent bought node from Ryan Dahl for a paltry amount of money. You’ll notice that we’re already in interesting economic territory. The man who invented node.js, the tool used by millions of people daily to develop Javascript, made a few tens of thousands of dollars from it. Whoever’s making money from node today, it’s not its inventor. He did at least make a living from it, because Joyent also hired him.
 
 ---
 
@@ -588,6 +588,7 @@
 
 ---
 
+![fit,inline](./qr-code.png)
 # [fit] but we do want __your help__
 # [fit] github/entropic-dev
 
@@ -621,7 +622,7 @@
 
 # [fit] __take back__ the commons
 
-^ My hope is that by giving Entropic away, I’ll help us take our language commons back. We'll take it back so we’re not held hostage by the needs of venture capitalists. Take it back so it's possible for us all to make a decision different from the decision we all made at the end of 2013. Take it back. We are a community of millions of developers, and we have enormous power. Entropic is our kick-start to this movement to take our language back.
+^ My hope is that by giving Entropic away, I’ll help us take our language commons back. We'll take it back so we’re not held hostage by the needs of venture capitalists. Take it back so it's possible for us all to make a decision different from the decision we all made at the end of 2013. We are a community of millions of developers, and we have enormous power. Entropic is our kick-start to this movement to take our language back.
 
 ---
 
@@ -635,4 +636,4 @@
 
 # [fit] ❤️ from ceej & chris
 
-^ With love from two human beings, from us to you. Please do something good with this.
+^ With love from two human beings, from us to you. What happens next is up to you.

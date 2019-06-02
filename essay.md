@@ -72,7 +72,7 @@ The node project made a decision to allow this, and to continue to give npm Inc 
 
 But Ceej, I hear you say, we weren't using npm then! We weren't around! Yes! Most of you weren't! You inherited this decision. You probably never realized it *was* a decision. npm exists out there, a fact of Javascript life that you never questioned. You might not have been aware or even cared that it was a company at all.
 
-At the time, it was a controversial decision. Nodejitsu, which had been hosting npm free of charge, wasn't happy about this. They had been up to their own fix with a `
+At the time, it was a controversial decision. Nodejitsu, which had been hosting npm free of charge, wasn't happy about this. They had been up to their own fix with a `#scalenpm` campaign, which ended up raising money for it at the same time npm's owner was raising VC money. There were legal maneuverings, most of which I know little about. I do know that npm exited Nodejitsu hosting very quickly and messily because the two companies were fighting and it involved lawyers. And later on, npm exited Joyent’s hosting very quickly because those two companies were also fighting.
 
 When money is at stake, relationships can dissolve. Friendships made when it's all just open source fun can end under the strain of competing for money.
 
@@ -94,7 +94,7 @@ Why isn’t Dominic Tarr living on a yacht instead of a sailboat?
 
 Why does Jan Lehnardt have a day job?
 
- Do you know those names? They're the authors of software you have on your laptops right now, in software that is the beating heart of a thousand open-source programs you use every day. And not just you-- every Fortune 500 company there is runs the software written by those people, and dozens of others who contributed software to node and npm in the early days. They aren't wealthy, despite the enormous value created by the software they wrote.
+Do you know those names? They're the authors of software you have on your laptops right now, in software that is the beating heart of a thousand open-source programs you use every day. And not just you-- every Fortune 500 company there is runs the software written by those people, and dozens of others who contributed software to node and npm in the early days. They aren't wealthy, despite the enormous value created by the software they wrote.
 
 Capitalism is supposed to reward people like them, but in practice it does not.
 

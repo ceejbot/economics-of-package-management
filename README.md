@@ -4,8 +4,8 @@ This is the talk I delivered on day one of JSConfEU 2019.
 
 * video link to come
 * [original proposal](./proposal.md)
-* [slides](./slides.md) in Markdown format, intended for display with [Deckset](https://decksetapp.com/)
-* Speakerdeck rendered slides to come.
+* [slides](./slides.md) in Markdown format, intended for display with [Deckset](https://www.deckset.com)
+* [rendered slides](https://speakerdeck.com/ceejbot/the-economics-of-package-management) on SpeakerDeck
 
 [Entropic](https://github.com/entropic-dev/entropic/) is the open source project associated with this talk.
 

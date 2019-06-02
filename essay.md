@@ -176,7 +176,7 @@ Now I don't think anybody can stand up in front of you and say "npm loves you" w
 
 How did that happen? Why did the cuddly wombat get set on fire? Let's move our story forward, shall we?
 
-We pick up in, oh, I don’t know, 2017. You all have been drinking from the firehose of Javascript packages which have been, for you, free. You do not think about or care about where they come from, or who is paying for the servers. You just type `install` and the packages arrive.
+We pick up in, oh, I don’t know, 2018. You all have been drinking from the firehose of Javascript packages which have been, for you, free. You do not think about or care about where they come from, or who is paying for the servers. You just type `install` and the packages arrive.
 
 But the bandwidth costs money, and somebody pays for it.
 
@@ -188,7 +188,7 @@ Remember that npm Inc’s obligations are to the people who own it, not the peop
 
 So npm Inc has to make money, or failing that tell a story about making more money so it can raise money to spend on making money.
 
-The ex-Yahoo employee who thought that sharing the Yahoo package manager with the world was a pretty neat idea was right about that, but he didn’t have many ideas beyond that, and it turns out running companies is a lot of work. So in 2017 he hired a new CEO to do that work for him, and well, here we go. The first thing this new CEO wanted to do was change npm’s culture— you know, the thing it had exported as its marketing message. The sustainable, compassionate culture was the first thing to go when this new guy arrived.
+The ex-Yahoo employee who thought that sharing the Yahoo package manager with the world was a pretty neat idea was right about that, but he didn’t have many ideas beyond that, and it turns out running companies is a lot of work. So in 2018 he hired a new CEO to do that work for him, and well, here we go. The first thing this new CEO wanted to do was change npm’s culture— you know, the thing it had exported as its marketing message. The sustainable, compassionate culture was the first thing to go when this new guy arrived.
 
 npm’s PR troubles as a result are probably known to you now. We’re a community that enjoys our drama. It's possible that if a saint were in charge, I wouldn't be standing here. But maybe I would be, because even a decent human being in that spot has a big problem to solve.
 

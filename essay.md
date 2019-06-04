@@ -28,7 +28,7 @@ This package manager was good enough and supported inside node well enough that 
 
 Somewhere around this time, Joyent bought node from Ryan Dahl for a paltry amount of money.
 
-You’ll notice that we’re already in interesting economic territory. The man who invented node.js, the tool used by millions of people daily to develop Javascript, made a couple tens of thousands of dollars from it. Whoever’s making money from node today, it’s not its inventor. He did at least make a living from it, because Joyent hired him.
+You’ll notice that we’re already in interesting economic territory. The man who invented node.js, the tool used by millions of people daily to develop Javascript, made a couple tens of thousands of dollars from it. Whoever’s making money from node today, it’s not its inventor. He did at least make a living from it, because Joyent hired him. [NOTE: I hear from somebody who ought to know that Dahl collected more than few tens of thousands, so he did okay in the short term. Still less than the overall value generated, however.]
 
 The programmer who wrote npm was also hired by Joyent to work on node but-- important plot point-- he retained ownership of the the npmjs.org domain name, the npm source code, and any inventions in it as his own intellectual property. He didn’t turn it all over to Joyent the way the node source had been turned over to Joyent. This decision matters later, so take note.
 
